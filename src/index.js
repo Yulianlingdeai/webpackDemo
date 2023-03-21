@@ -190,7 +190,6 @@ window.previewFile = function () {
     p.then((res) => {
         console.log(res);
     });
-    return;
     const reader = new FileReader();
 
     reader.addEventListener(
