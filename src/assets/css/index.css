@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  /* background-color: pink; */
+}
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../image/jieping.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
