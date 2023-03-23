@@ -187,7 +187,7 @@ const myIdentity: GenericIdentityFn<number> = identity;
 console.log(myIdentity(1));
 
 // keyof拿到一个类型下所有的属性
-// K extends K属于后面的类型
+// K extends K属于后面的类型-泛型约束
 function getProperty<T, K extends keyof T>(obj: T, key: K) {
     return obj[key];
 }
